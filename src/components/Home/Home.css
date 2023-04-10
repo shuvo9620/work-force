@@ -37,7 +37,7 @@
 
 .banner-img {
     width: 816px;
-    height: 719px;
+    height: 720px;
 }
 
 .color-text {
@@ -54,7 +54,7 @@
     margin-top: 32px;
 }
 
-.jobs-data {
+/* .jobs-data {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,4 +77,4 @@
 .jobs-cat p{
     color: #757575;
     margin-bottom: 32px;
-}
+} */

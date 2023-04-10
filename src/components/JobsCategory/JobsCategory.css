@@ -1,3 +1,28 @@
+.jobs-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.jobs-cat {
+    text-align: center;
+}
+
+.jobs-cat h2 {
+    margin-bottom: 16px;
+    font-family: Manrope;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 66px;
+    letter-spacing: 0em;
+}
+
+.jobs-cat p{
+    color: #757575;
+    margin-bottom: 32px;
+}
+
 .jobs-all-data{
     margin-right: 25px;
     border: 1px solid whitesmoke;

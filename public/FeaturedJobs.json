@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "CompanyLogo": "Logo/google-1-1 1-1.png",
+        "JobTitle": "Software Engineer",
+        "CompanyName": "Google LLC",
+        "RemoteOrOnsite": "Remote",
+        "Location": "Anywhere",
+        "Salary": "$100,000 - $120,000",
+        "Job Description": "We are seeking a talented software engineer to join our team and help us build amazing software products.",
+        "Fulltime": "Full-time",
+        "Experiences": "3+ years of experience in software development"
+    },
+    {
+        "id": 2,
+        "CompanyLogo": "Logo/netflix-4 1.png",
+        "JobTitle": "Data Scientist",
+        "CompanyName": "Netflix",
+        "RemoteOrOnsite": "Onsite",
+        "Location": "New York City",
+        "Salary": "$120,000 - $140,000",
+        "Job Description": "We are seeking a data scientist to work on our cutting-edge machine learning projects.",
+        "Fulltime": "Full-time",
+        "Experiences": "5+ years of experience in data science and machine learning"
+    },
+    {
+        "id": 3,
+        "CompanyLogo": "Logo/tesla-9 1.png",
+        "JobTitle": "Marketing Manager",
+        "CompanyName": "Tesla",
+        "RemoteOrOnsite": "Remote",
+        "Location": "Anywhere",
+        "Salary": "$80,000 - $100,000",
+        "Job Description": "We are looking for an experienced marketing manager to help us grow our business.",
+        "Fulltime": "Full-time",
+        "Experiences": "7+ years of experience in marketing and sales"
+    },
+    {
+        "id": 4,
+        "CompanyLogo": "Logo/google-1-1 1.png",
+        "JobTitle": "Web Designer",
+        "CompanyName": "Google LLC",
+        "RemoteOrOnsite": "Onsite",
+        "Location": "San Francisco",
+        "Salary": "$80,000 - $100,000",
+        "Job Description": "We are looking for a talented web designer to join our team and help us create beautiful websites.",
+        "Fulltime": "Full-time",
+        "Experiences": "3+ years of experience in web design"
+    },
+    {
+        "id": 5,
+        "CompanyLogo": "https://example.com/logo.png",
+        "JobTitle": "Graphic Designer",
+        "CompanyName": "Design Studio",
+        "RemoteOrOnsite": "Remote",
+        "Location": "Anywhere",
+        "Salary": "$60,000 - $80,000",
+        "Job Description": "We are seeking a creative graphic designer to help us create beautiful visual designs for our clients.",
+        "Fulltime": "Full-time",
+        "Experiences": "5+ years of experience in graphic design"
+    },
+    {
+        "id": 6,
+        "CompanyLogo": "https://example.com/logo.png",
+        "JobTitle": "Product Manager",
+        "CompanyName": "Tech Startup",
+        "RemoteOrOnsite": "Onsite",
+        "Location": "Los Angeles",
+        "Salary": "$120,000 - $140,000",
+        "Job Description": "We are looking for an experienced product manager to lead our product development efforts.",
+        "Fulltime": "Full-time",
+        "Experiences": "8+ years of experience in graphic design"
+    }
+]

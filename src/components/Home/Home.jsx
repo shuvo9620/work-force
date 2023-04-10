@@ -1,9 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Home.css'
 import { useLoaderData } from 'react-router-dom';
 import JobsCategory from '../JobsCategory/JobsCategory';
+import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
 const Home = () => {
-    const jobsCategory = useLoaderData();
+
+    const [jobsCategory, setJobsCategory] = useState([]);
+
+    useEffect(() => {
+        fetch('jobsCategoryList.json')
+            .then(res => res.json())
+            .then(data => setJobsCategory(data))
+    }, [])
+
+    const featuredJob = useLoaderData();
+
     return (
         <div>
             <div className='banner-section'>
@@ -28,6 +39,21 @@ const Home = () => {
                             key={job.id}
                             job={job}
                         ></JobsCategory>)
+                    }
+                </div>
+            </div>
+
+            <div className='jobs-cat'>
+                <h2>Featured Jobs</h2>
+                <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
+            </div>
+            <div>
+                <div className='featured-jobs-data'>
+                    {
+                        featuredJob.map(work => <FeaturedJobs
+                            key={work.id}
+                            work={work}
+                        ></FeaturedJobs>)
                     }
                 </div>
             </div>
