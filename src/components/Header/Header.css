@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 120px;
+    background: whitesmoke;
+}
+
+.header nav a{
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: Manrope;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #9873FF;
+}
+
+.brand-name{
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 32px;
+    color: #1A1919;
+    line-height: 40px;
+}
+
+.apply-btn{
+    color: #FFFFFF;
+    background-color: #7E90FE;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+}
