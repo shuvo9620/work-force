@@ -1,0 +1,53 @@
+.banner-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 25px 25px 120px;
+}
+
+.banner-text h2 {
+    font-family: Manrope;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 320px;
+    margin-bottom: 24px;
+    margin-right: 20px;
+}
+
+.banner-text p {
+    font-family: Manrope;
+    width: 410px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.text-area {
+    height: 511px;
+    width: 570px;
+}
+
+.banner-img {
+    width: 816px;
+    height: 744px;
+}
+
+.color-text {
+    color: #9873FF;
+}
+
+.banner-btn {
+    height: 45px;
+    width: 120px;
+    border-radius: 8px;
+    background: #7E90FE;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 32px;
+}
