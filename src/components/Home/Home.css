@@ -51,3 +51,28 @@
     border: none;
     margin-top: 32px;
 }
+
+.jobs-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jobs-cat {
+    padding: 25px 25px 25px 120px;
+    text-align: center;
+}
+
+.jobs-cat h2 {
+    margin-bottom: 16px;
+    font-family: Manrope;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 66px;
+    letter-spacing: 0em;
+}
+
+.jobs-cat p{
+    color: #757575;
+    margin-bottom: 32px;
+}
