@@ -4,17 +4,19 @@ import './FeaturedJobs.css';
 const FeaturedJobs = ({ work }) => {
     const { JobTitle, CompanyLogo, CompanyName, RemoteOrOnsite, Location, Salary, Fulltime } = work;
     return (
-        <div>
+        <div className='all-job'>
             <img src={CompanyLogo} alt="" />
             <h3>{JobTitle}</h3>
-            <p>{CompanyName}</p>
-            <div>
+            <p className='company'>{CompanyName}</p>
+            <div className='job-des'>
                 <p>{RemoteOrOnsite}</p>
                 <p>{Fulltime}</p>
+            </div>
+            <div className='job-des2'>
                 <p>{Location}</p>
                 <p>{Salary}</p>
-                <button>View Details</button>
             </div>
+            <button className='btn-details'>View Details</button>
         </div>
     );
 };
