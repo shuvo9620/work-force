@@ -3,6 +3,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 25px 25px 25px 120px;
+    background: whitesmoke;
+    margin-bottom: 100px;
 }
 
 .banner-text h2 {
@@ -35,7 +37,7 @@
 
 .banner-img {
     width: 816px;
-    height: 744px;
+    height: 719px;
 }
 
 .color-text {
@@ -58,8 +60,8 @@
     align-items: center;
 }
 
+
 .jobs-cat {
-    padding: 25px 25px 25px 120px;
     text-align: center;
 }
 

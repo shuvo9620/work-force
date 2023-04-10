@@ -1,0 +1,15 @@
+.jobs-all-data{
+    margin-right: 25px;
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    background: whitesmoke;
+    padding: 20px;
+    width: 211px;
+    height: 143px;
+    text-align: left;
+}
+
+.jobs-all-data h4{
+    margin-top: 25px;
+    margin-bottom: 8px;
+}
