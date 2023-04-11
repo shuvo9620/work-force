@@ -15,6 +15,11 @@ const Home = () => {
 
     const featuredJob = useLoaderData();
 
+    const [featured, setFeatured] = useState(featuredJob);
+    const [showAllFeature, setShowAllFeature] = useState(false);
+
+    const sliceFeaturedJob = showAllFeature ? featured : featured.slice(0, 4);
+
     return (
         <div>
             <div className='banner-section'>
@@ -50,7 +55,7 @@ const Home = () => {
             <div>
                 <div className='featured-jobs-data'>
                     {
-                        featuredJob.map(work => <FeaturedJobs
+                        sliceFeaturedJob.map(work => <FeaturedJobs
                             key={work.id}
                             work={work}
                         ></FeaturedJobs>)
