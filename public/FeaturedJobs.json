@@ -9,7 +9,11 @@
         "Salary": "100,000 - 120,000",
         "JobDescription": "We are seeking a talented software engineer to join our team and help us build amazing software products.",
         "Fulltime": "Full-time",
-        "Experiences": "3+ years of experience in software development"
+        "Experiences": "3+ years of experience in software development",
+        "JobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "EducationalRequirements": "Bachelor degree to complete any reputational university.",
+        "phone": "01700112233",
+        "email": "info@gmail.com"
     },
     {
         "id": 2,
@@ -21,7 +25,11 @@
         "Salary": "120,000 - 140,000",
         "JobDescription": "We are seeking a data scientist to work on our cutting-edge machine learning projects.",
         "Fulltime": "Full-time",
-        "Experiences": "5+ years of experience in data science and machine learning"
+        "Experiences": "5+ years of experience in data science and machine learning",
+        "JobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "EducationalRequirements": "Masters degree to complete any reputational university.",
+        "phone": "01700112233",
+        "email": "info@gmail.com"
     },
     {
         "id": 3,
@@ -33,7 +41,11 @@
         "Salary": "80,000 - 100,000",
         "JobDescription": "We are looking for an experienced marketing manager to help us grow our business.",
         "Fulltime": "Full-time",
-        "Experiences": "7+ years of experience in marketing and sales"
+        "Experiences": "7+ years of experience in marketing and sales",
+        "JobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "EducationalRequirements": "PHD degree to complete any reputational university.",
+        "phone": "01700112233",
+        "email": "info@gmail.com"
     },
     {
         "id": 4,
@@ -45,7 +57,11 @@
         "Salary": "80,000 - 100,000",
         "JobDescription": "We are looking for a talented web designer to join our team and help us create beautiful websites.",
         "Fulltime": "Full-time",
-        "Experiences": "3+ years of experience in web design"
+        "Experiences": "3+ years of experience in web design",
+        "JobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "EducationalRequirements": "No need education. we just need who can make website",
+        "phone": "01700112233",
+        "email": "info@gmail.com"
     },
     {
         "id": 5,
@@ -57,7 +73,11 @@
         "Salary": "60,000 - 80,000",
         "JobDescription": "We are seeking a creative graphic designer to help us create beautiful visual designs for our clients.",
         "Fulltime": "Full-time",
-        "Experiences": "5+ years of experience in graphic design"
+        "Experiences": "5+ years of experience in graphic design",
+        "JobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "EducationalRequirements": "Bachelor degree to complete any reputational university.",
+        "phone": "01700112233",
+        "email": "info@gmail.com"
     },
     {
         "id": 6,
@@ -69,6 +89,10 @@
         "Salary": "120,000 - 140,000",
         "JobDescription": "We are looking for an experienced product manager to lead our product development efforts.",
         "Fulltime": "Full-time",
-        "Experiences": "8+ years of experience in graphic design"
+        "Experiences": "8+ years of experience in graphic design",
+        "JobResponsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+        "EducationalRequirements": "Bachelor degree to complete any reputational college.",
+        "phone": "01700112233",
+        "email": "info@gmail.com"
     }
 ]
