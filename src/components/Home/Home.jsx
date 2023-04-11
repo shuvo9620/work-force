@@ -8,7 +8,7 @@ const Home = () => {
     const [jobsCategory, setJobsCategory] = useState([]);
 
     useEffect(() => {
-        fetch('jobsCategoryList.json')
+        fetch('/jobsCategoryList.json')
             .then(res => res.json())
             .then(data => setJobsCategory(data))
     }, [])

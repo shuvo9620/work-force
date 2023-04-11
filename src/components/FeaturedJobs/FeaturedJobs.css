@@ -68,5 +68,6 @@
     border-radius: 4px;
     background: #7E90FE;
     color: #FFFFFF;
-    border: none;
+    text-decoration: none;
+    padding: 10px;
 }

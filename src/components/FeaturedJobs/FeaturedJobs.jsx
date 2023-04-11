@@ -1,8 +1,9 @@
 import React from 'react';
 import './FeaturedJobs.css';
+import { Link } from 'react-router-dom';
 
 const FeaturedJobs = ({ work }) => {
-    const { JobTitle, CompanyLogo, CompanyName, RemoteOrOnsite, Location, Salary, Fulltime } = work;
+    const { id, JobTitle, CompanyLogo, CompanyName, RemoteOrOnsite, Location, Salary, Fulltime } = work;
     return (
         <div className='all-job'>
             <img src={CompanyLogo} alt="" />
@@ -18,7 +19,7 @@ const FeaturedJobs = ({ work }) => {
                 <img src="Icons/Frame.png" alt="" />
                 <p>Salary: {Salary}</p>
             </div>
-            <button className='btn-details'>View Details</button>
+            <Link to={`/featured_details/${id}`} className='btn-details'>View Details</Link>
         </div>
     );
 };
