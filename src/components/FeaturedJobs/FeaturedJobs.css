@@ -46,13 +46,17 @@
 
 .job-des2 {
     display: flex;
-    gap: 15px;
+    gap: 8px;
 }
 
 .job-des2 p {
     color: #757575;
 }
 
+.job-des2 img{
+    width: 15px;
+    height: 15px;
+}
 .company {
     color: #757575;
 }

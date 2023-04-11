@@ -13,8 +13,10 @@ const FeaturedJobs = ({ work }) => {
                 <p>{Fulltime}</p>
             </div>
             <div className='job-des2'>
+                <img src="Icons/Location Icon.png" alt="" />
                 <p>{Location}</p>
-                <p>{Salary}</p>
+                <img src="Icons/Frame.png" alt="" />
+                <p>Salary: {Salary}</p>
             </div>
             <button className='btn-details'>View Details</button>
         </div>
