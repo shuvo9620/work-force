@@ -49,9 +49,9 @@
     },
     {
         "id": 5,
-        "CompanyLogo": "https://example.com/logo.png",
+        "CompanyLogo": "Logo/netflix-4 1.png",
         "JobTitle": "Graphic Designer",
-        "CompanyName": "Design Studio",
+        "CompanyName": "Netflix",
         "RemoteOrOnsite": "Remote",
         "Location": "Hungary",
         "Salary": "60,000 - 80,000",
@@ -61,9 +61,9 @@
     },
     {
         "id": 6,
-        "CompanyLogo": "https://example.com/logo.png",
+        "CompanyLogo": "Logo/tesla-9 1.png",
         "JobTitle": "Product Manager",
-        "CompanyName": "Tech Startup",
+        "CompanyName": "Tesla",
         "RemoteOrOnsite": "Onsite",
         "Location": "Canada",
         "Salary": "120,000 - 140,000",
