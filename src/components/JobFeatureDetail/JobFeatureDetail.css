@@ -1,42 +1,40 @@
-/* .top{
-    display: flex;
-    justify-content: space-between;
-}
-
-.top img{
-    background-position: top right, bottom left;
-    background-repeat: no-repeat;
-} */
-
 .job-details {
     display: flex;
     justify-content: center;
     gap: 24px;
     margin: 0 150px;
     border-radius: 8px;
-    height: auto;
+    height: 420px;
     width: 1060px;
 }
 
 .job-header {
     text-align: center;
     margin-bottom: 200px;
+    margin-top: 20px;
 }
 
 .job-two {
     border-radius: 8px;
     background: #7E90FE1A;
+    position: relative;
+    margin-bottom: 10px;
 }
-.job-two img{
+
+.job-two img {
     height: 18px;
     width: 18px;
     margin-right: 2px;
     text-align: center;
 }
 
-.button-apply{
+.button-apply {
     border-radius: 8px;
     border: none;
     padding: 10px;
     background: #9873FF;
+    color: #FFFFFF;
+    width: 80%;
+    position: absolute;
+    bottom: 0;
 }

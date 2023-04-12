@@ -31,10 +31,6 @@ const JobFeaturedDetail = () => {
 
     return (
         <div>
-            {/* <div className='top'>
-                <img src="/All Images/Vector.png" alt="" />
-                <img src="/public/All Images/Vector-1.png" alt="" />
-            </div> */}
             {isLoading ? (
                 <p>Loading job details...</p>
             ) : jobToDisplay ? (
@@ -51,18 +47,20 @@ const JobFeaturedDetail = () => {
                         </div>
 
                         <div className='job-two card p-4 w-75'>
-                            <h3>Job Details</h3>
-                            <p><img src="/Icons/Frame.png"/>
-                            <strong>Salary: </strong>{jobToDisplay.Salary}</p>
-                            <p> <img src="/Icons/Frame-1.png"/>
-                            <strong>Job Title: </strong>{jobToDisplay.JobTitle}</p>
-                            <h3>Contact Info</h3>
-                            <p> <img src="/Icons/Frame-2.png"/>
-                            <strong>Phone: </strong>{jobToDisplay.phone}</p>
-                            <p> <img src="/Icons/Frame-3.png"/>
-                            <strong>Email: </strong>{jobToDisplay.email}</p>
-                            <p><strong> <img src="/Icons/Frame-4.png"/>
-                            Address: </strong>{jobToDisplay.Location}</p>
+                            <div>
+                                <h3>Job Details</h3>
+                                <p><img src="/Icons/Frame.png" />
+                                    <strong>Salary: </strong>{jobToDisplay.Salary}</p>
+                                <p> <img src="/Icons/Frame-1.png" />
+                                    <strong>Job Title: </strong>{jobToDisplay.JobTitle}</p>
+                                <h3>Contact Info</h3>
+                                <p> <img src="/Icons/Frame-2.png" />
+                                    <strong>Phone: </strong>{jobToDisplay.phone}</p>
+                                <p> <img src="/Icons/Frame-3.png" />
+                                    <strong>Email: </strong>{jobToDisplay.email}</p>
+                                <p><strong> <img src="/Icons/Frame-4.png" />
+                                    Address: </strong>{jobToDisplay.Location}</p>
+                            </div>
                             <button onClick={() => handleApplyJob(id)} className='button-apply'>Apply job</button>
                         </div>
 

@@ -10,6 +10,8 @@ import Main from './components/Layout/Main';
 import Home from './components/Home/Home';
 import FeaturedJobs from './components/FeaturedJobs/FeaturedJobs';
 import JobFeatureDetail from './components/JobFeatureDetail/JobFeatureDetail';
+import AppliedJob from './components/AppliedJob/AppliedJob';
+import Statistics from './components/Statistics/Statistics';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +26,14 @@ const router = createBrowserRouter([
       {
         path: 'featured_details/:id',
         element: <JobFeatureDetail></JobFeatureDetail>
+      },
+      {
+        path: 'AppliedJob',
+        element: <AppliedJob></AppliedJob>
+      },
+      {
+        path: 'statistics',
+        element: <Statistics></Statistics>
       }
     ]
   }

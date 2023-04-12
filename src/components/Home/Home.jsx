@@ -31,7 +31,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='banner-img'>
-                    <img src="All Images/man.png" alt="" />
+                    <img src="AllImages/man.png" alt="" />
                 </div>
             </div>
 
