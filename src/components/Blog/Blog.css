@@ -14,9 +14,19 @@
 }
 
 .question h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-size: 36px;
+    font-weight: 800;
+    color: crimson;
+}
+
+.question h3{
     border: 1px solid lightgray;
     padding: 10px;
     border-radius: 8px;
     background: whitesmoke;
     margin-bottom: 15px;
 }
+

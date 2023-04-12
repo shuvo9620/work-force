@@ -5,8 +5,11 @@ import './Header.css'
 const Header = () => {
     return (
         <div className='header'>
+            {/* <div className="header">
+                <Link to="/">Home</Link>
+            </div> */}
             <div className='brand-name'>
-                <h2>WorkForce</h2>
+                <Link to="/">WorkForce</Link>
             </div>
             <nav>
                 <Link to="/statistics">Statistics</Link>

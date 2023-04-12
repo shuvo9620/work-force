@@ -19,12 +19,13 @@
     color: #9873FF;
 }
 
-.brand-name{
+.brand-name a{
     font-family: Manrope;
     font-weight: 800;
     font-size: 32px;
     color: #1A1919;
     line-height: 40px;
+    text-decoration: none;
 }
 
 .apply-btn{
