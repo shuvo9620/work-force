@@ -10,4 +10,6 @@
 * In the applied job page, there have two button onsite job and Remote job, user can click on those button for sorting the job.
 * In the applied job page user can see a button view details, when user click on the view details button, it will redirect to applied job page. 
 
+* Live Site Link: https://eclectic-ganache-2d41b8.netlify.app/
+
 
